@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flexbox;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+header{
+    padding: 50px;
+    background-color: aqua;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: blueviolet;
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+section{
+    flex: 70%;
+    background-color: chocolate;
+    padding: 20px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: crimson;
+}
